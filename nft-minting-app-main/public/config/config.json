@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x08207e2e82641394e661dED0c00B991319DB457C",
+  "SCAN_LINK": "https://polygonscan.com/token/0x08207e2e82641394e661dED0c00B991319DB457C",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Graffiti Prime Ape Planet",
+  "SYMBOL": "GPAP",
+  "MAX_SUPPLY": 992,
+  "WEI_COST": 1000000000000000000,
+  "DISPLAY_COST": 115,
+  "GAS_LIMIT": 3000000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/graffiti-prime-ape-planet",
+  "SHOW_BACKGROUND": true
+}
