@@ -66,9 +66,9 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 1500px;
+  width: 400px;
   @media (min-width: 767px) {
-    width: 1500;
+    width: 400;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -79,12 +79,12 @@ export const StyledImg = styled.img`
   border: 4px dashed var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
-  width: 1500px;
-  @media (min-width: 900px) {
-    width: 1500px;
+  width: 400px;
+  @media (min-width: 400px) {
+    width: 400px;
   }
-  @media (min-width: 1000px) {
-    width: 1500;
+  @media (min-width: 400px) {
+    width: 400;
   }
   transition: width 0.5s;
 `;
@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `Awesome, you just minted a Graffiti Ape! Check your Opensea account to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
